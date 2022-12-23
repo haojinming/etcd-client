@@ -1,6 +1,6 @@
 fn main() {
     let proto_root = "proto";
-    println!("cargo:rerun-if-changed={}", proto_root);
+    //println!("cargo:rerun-if-changed={}", proto_root);
 
     tonic_build::configure()
         .build_server(false)
